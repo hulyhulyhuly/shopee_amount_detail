@@ -22,5 +22,6 @@ def check_amount_file_name(filename):
         stderr.write('工具將在5秒後自動退出')
         stderr.flush()
         sleep(5)
+        exit()
 
     check_path(filename, '明細報表')
